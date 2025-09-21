@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SNS | 割烹 新</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./assets/styles.css" />
+<link rel="icon" href="favicon.ico" />
+</head>
+<body>
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="./">割烹 新 <span>ARATA</span></a>
+<button class="nav-toggle" aria-label="メニューを開閉" aria-expanded="false">☰</button>
+<nav class="nav-menu" aria-label="メインメニュー">
+<a href="./menu.html">お品書き</a>
+<a href="./chef.html">料理長</a>
+<a href="./reservation.html" class="btn">ご予約</a>
+<a href="./sns.html" aria-current="page">SNS</a>
+</nav>
+</div>
+</header>
+
+<main class="container section">
+<header class="page-header">
+<h1>SNS</h1>
+<p class="muted">最新の入荷情報や季節の一皿、臨時休業などのお知らせを発信しています。</p>
+</header>
+
+<div class="card-grid">
+<a class="sns-card card reveal" href="#" target="_blank" rel="noopener">
+<img src="./images/seasonal_1.jpg" alt="Instagram サムネイル" />
+<div class="card-body">
+<h3>Instagram</h3>
+<p>季節の一皿や店内の様子を投稿。</p>
+</div>
+</a>
+<a class="sns-card card reveal" style="--delay:120ms" href="#" target="_blank" rel="noopener">
+<img src="./images/drinks.jpg" alt="Facebook サムネイル" />
+<div class="card-body">
+<h3>Facebook</h3>
+<p>最新のお知らせ、営業情報など。</p>
+</div>
+</a>
+<a class="sns-card card reveal" style="--delay:240ms" href="#" target="_blank" rel="noopener">
+<img src="./images/seasonal_2.jpg" alt="X(旧Twitter) サムネイル" />
+<div class="card-body">
+<h3>X（旧Twitter）</h3>
+<p>入荷速報や当日のお席情報を発信。</p>
+</div>
+</a>
+</div>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<div class="brand">割烹 新 <span>ARATA</span></div>
+<p>フォローいただけると嬉しいです。</p>
+</div>
+<nav class="footer-nav">
+<a href="./reservation.html" class="btn">ご予約</a>
+</nav>
+</div>
+<small class="container">© <span id="y"></span> Kappou Arata.</small>
+</footer>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>

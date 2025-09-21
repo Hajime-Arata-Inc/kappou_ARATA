@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ご予約 | 割烹 新</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./assets/styles.css" />
+<link rel="icon" href="favicon.ico" />
+</head>
+<body>
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="./">割烹 新 <span>ARATA</span></a>
+<button class="nav-toggle" aria-label="メニューを開閉" aria-expanded="false">☰</button>
+<nav class="nav-menu" aria-label="メインメニュー">
+<a href="./menu.html">お品書き</a>
+<a href="./chef.html">料理長</a>
+<a href="./reservation.html" aria-current="page" class="btn">ご予約</a>
+<a href="./sns.html">SNS</a>
+</nav>
+</div>
+</header>
+
+<main class="container section">
+<header class="page-header">
+<h1>ご予約</h1>
+<p class="muted">オンラインの仮予約を承ります（折り返しご連絡にて確定）。お急ぎの方はお電話でお願いいたします。</p>
+</header>
+
+<form class="reserve-form card" action="#" method="post" onsubmit="alert('送信しました。折り返しご連絡いたします。'); return false;">
+<div class="grid">
+<label>お名前
+<input type="text" name="name" required placeholder="山田 太郎" />
+</label>
+<label>お電話番号
+<input type="tel" name="phone" required placeholder="03-1234-5678" />
+</label>
+<label>ご来店日
+<input type="date" name="date" required />
+</label>
+<label>ご来店時間
+<input type="time" name="time" required />
+</label>
+<label>人数
+<input type="number" name="guests" min="1" max="12" value="2" required />
+</label>
+<label>ご希望コース
+<select name="course">
+<option>未定</option>
+<option>松（極）</option>
+<option>竹（上）</option>
+<option>梅（並）</option>
+</select>
+</label>
+</div>
+<label>アレルギー／苦手食材
+<textarea name="allergy" rows="3" placeholder="甲殻類、ナッツ など"></textarea>
+</label>
+<label>ご要望
+<textarea name="note" rows="3" placeholder="お誕生日のメッセージ、席のご希望 等"></textarea>
+</label>
+<div class="form-actions">
+<button class="btn btn-accent" type="submit">送信する</button>
+<a class="btn" href="tel:0312345678">お電話で予約</a>
+</div>
+</form>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<div class="brand">割烹 新 <span>ARATA</span></div>
+<p>〒０００ー００００ ◯◯県〇〇市〇〇町００−００−０<br>営業時間：17:00–21:00（L.O. 20:00）／日曜定休</p>
+</div>
+</div>
+<small class="container">© <span id="y"></span> Kappou Arata.</small>
+</footer>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>

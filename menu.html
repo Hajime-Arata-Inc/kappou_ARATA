@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>お品書き | 割烹 新</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./assets/styles.css" />
+<link rel="icon" href="favicon.ico" />
+</head>
+<body>
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="./">割烹 新 <span>ARATA</span></a>
+<button class="nav-toggle" aria-label="メニューを開閉" aria-expanded="false">☰</button>
+<nav class="nav-menu" aria-label="メインメニュー">
+<a href="./menu.html" aria-current="page">お品書き</a>
+<a href="./chef.html">料理長</a>
+<a href="./reservation.html" class="btn">ご予約</a>
+<a href="./sns.html">SNS</a>
+</nav>
+</div>
+</header>
+
+<main class="container section">
+<header class="page-header">
+<h1>お品書き</h1>
+<p class="muted">※内容・価格は季節や入荷状況により変わります。アレルギーなどご相談ください。</p>
+</header>
+
+<section class="menu-block">
+<h2>会席コース</h2>
+<div class="menu-courses">
+    <article class="course card reveal">
+        <img src="./images/matsu_kiwame.jpg" alt="松（極）コースの料理" />
+        <div class="card-body">
+        <h3>松（極）</h3>
+        <p class="price">¥18,000〜</p>
+        <p>旬材を贅沢に。至高の一会をご用意します。</p>
+        </div>
+    </article>
+
+    <article class="course card reveal" style="--delay:120ms">
+        <img src="./images/take_jou.jpg" alt="竹（上）コースの料理" />
+        <div class="card-body">
+        <h3>竹（上）</h3>
+        <p class="price">¥12,000〜</p>
+        <p>季の恵みを端正に。迷ったらこちらを。</p>
+        </div>
+    </article>
+
+    <article class="course card reveal" style="--delay:240ms">
+        <img src="./images/ume_nami.jpg" alt="梅（並）コースの料理" />
+        <div class="card-body">
+        <h3>梅（並）</h3>
+        <p class="price">¥8,000〜</p>
+        <p>気軽な会食にも。割烹の基礎を丁寧に。</p>
+        </div>
+    </article>
+    </div>
+</section>
+
+
+<section class="menu-block ippin-block">
+<!-- 背景画像とグラデーション -->
+    <div class="menu-hero">
+        <img src="./images/ippin2.jpg" alt="一品料理のイメージ（お造り・焼物・天ぷら）">
+    <div class="overlay"></div>
+    <h2>一品料理</h2>
+    </div>
+
+    <div class="menu-list two-col">
+    <h3 class="muted">旬のもの</h3>
+    <div>
+        <div class="menu-item"><span>お造り盛り合わせ</span><span>¥2,800〜</span></div>
+        <div class="menu-item"><span>天ぷら盛り合わせ</span><span>¥1,800〜</span></div>
+    </div>
+    <h3 class="muted">定番</h3>
+    <div>
+        <div class="menu-item"><span>焼物（季節魚）</span><span>¥1,600〜</span></div>
+        <div class="menu-item"><span>煮物（旬野菜）</span><span>¥1,200〜</span></div>
+        <div class="menu-item"><span>出汁巻き玉子</span><span>¥900</span></div>
+    </div>
+    <h3 class="muted">ご飯</h3>
+    <div>    
+        <div class="menu-item"><span>土鍋ごはん（二人前）</span><span>¥1,800〜</span></div>
+    </div>
+    </div>
+</section>
+
+
+<section class="menu-block ippin-block">
+<div class="menu-hero">
+    <img src="./images/drinks2.jpg" alt="お飲み物のイメージ">
+    <div class="overlay"></div>
+    <h2>お飲み物</h2>
+</div>
+    <div class="menu-list three-col">
+    <div>
+        <h3 class="muted">ビール</h3>
+        <div class="menu-item"><span>生ビール</span><span>¥700</span></div>
+        <div class="menu-item"><span>瓶ビール</span><span>¥800</span></div>
+    </div>
+    <div>
+        <h3 class="muted">日本酒</h3>
+        <div class="menu-item"><span>地酒 吟醸・純米</span><span>¥900〜</span></div>
+        <div class="menu-item"><span>季節の限定酒</span><span>¥1,200〜</span></div>
+    </div>
+    <div>
+        <h3 class="muted">ワイン</h3>
+        <div class="menu-item"><span>白・赤（グラス）</span><span>各 ¥900〜</span></div>
+        <div class="menu-item"><span>ボトル</span><span>¥4,500〜</span></div>
+    </div>
+    </div>
+
+</section>
+<br><br><br><br><br><br><br><br>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<div class="brand">割烹 新 <span>ARATA</span></div>
+<p>〒０００ー００００ ◯◯県〇〇市〇〇町００−００−０<br>営業時間：17:00–21:00（L.O. 20:00）／日曜定休</p>
+</div>
+<nav class="footer-nav">
+<a href="./reservation.html" class="btn">ご予約</a>
+</nav>
+</div>
+<small class="container">© <span id="y"></span> Kappou Arata.</small>
+</footer>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# OS / エディタ関連
+.DS_Store
+Thumbs.db
+*.swp
+
+# Node / Python などを使う場合（任意）
+node_modules/
+__pycache__/
+
+# 画像を除外
+images/
