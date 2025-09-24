@@ -3,7 +3,7 @@
 Thumbs.db
 *.swp
 
-# Node / Python などを使う場合（任意）
+# Node / Python
 node_modules/
 __pycache__/
 
